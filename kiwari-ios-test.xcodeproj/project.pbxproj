@@ -3,27 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		04C52C1F2419475B009A69F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C52C1E2419475B009A69F2 /* AppDelegate.swift */; };
-		04C52C212419475B009A69F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C52C202419475B009A69F2 /* SceneDelegate.swift */; };
-		04C52C232419475B009A69F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C52C222419475B009A69F2 /* ViewController.swift */; };
 		04C52C262419475B009A69F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C52C242419475B009A69F2 /* Main.storyboard */; };
 		04C52C282419475E009A69F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C52C272419475E009A69F2 /* Assets.xcassets */; };
 		04C52C2B2419475E009A69F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C52C292419475E009A69F2 /* LaunchScreen.storyboard */; };
+		04C52C37241948CD009A69F2 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C52C36241948CD009A69F2 /* LoginVC.swift */; };
+		04C52C3B2419493D009A69F2 /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C52C3A2419493D009A69F2 /* LoginVM.swift */; };
+		04C52C3D2419785B009A69F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04C52C3C2419785B009A69F2 /* GoogleService-Info.plist */; };
+		04C52C3F24197FA9009A69F2 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C52C3E24197FA9009A69F2 /* Helper.swift */; };
+		04C52C46241983C4009A69F2 /* ChatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C52C45241983C4009A69F2 /* ChatsVC.swift */; };
+		04C52C48241983E9009A69F2 /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C52C47241983E9009A69F2 /* TabController.swift */; };
+		04C52C4B24198427009A69F2 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C52C4A24198427009A69F2 /* ProfileVC.swift */; };
+		04C52C4D24198934009A69F2 /* ChatRoomTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C52C4C24198934009A69F2 /* ChatRoomTC.swift */; };
+		04C52C4F24198F3C009A69F2 /* ProfileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C52C4E24198F3C009A69F2 /* ProfileVM.swift */; };
+		04C52C52241992F5009A69F2 /* MessagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C52C51241992F5009A69F2 /* MessagesVC.swift */; };
+		04C52C542419931C009A69F2 /* MyChatTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C52C532419931C009A69F2 /* MyChatTC.swift */; };
+		04C52C562419932B009A69F2 /* TheyChatTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C52C552419932B009A69F2 /* TheyChatTC.swift */; };
+		04FABE132419A40200BD6CCD /* ChatsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FABE122419A40200BD6CCD /* ChatsVM.swift */; };
+		04FABE152419A4B400BD6CCD /* ChatsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FABE142419A4B400BD6CCD /* ChatsModel.swift */; };
+		04FABE172419AE9600BD6CCD /* MessagesVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FABE162419AE9600BD6CCD /* MessagesVM.swift */; };
+		04FABE192419AEB400BD6CCD /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FABE182419AEB400BD6CCD /* MessageModel.swift */; };
+		5770783B79A32F0D1DCA6C46 /* libPods-kiwari-ios-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE2772F224BA6436E78BF42 /* libPods-kiwari-ios-test.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04C52C1B2419475B009A69F2 /* kiwari-ios-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kiwari-ios-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C52C1E2419475B009A69F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04C52C202419475B009A69F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04C52C222419475B009A69F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04C52C252419475B009A69F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04C52C272419475E009A69F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C52C2A2419475E009A69F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C52C2C2419475E009A69F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C52C36241948CD009A69F2 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		04C52C3A2419493D009A69F2 /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
+		04C52C3C2419785B009A69F2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04C52C3E24197FA9009A69F2 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		04C52C45241983C4009A69F2 /* ChatsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsVC.swift; sourceTree = "<group>"; };
+		04C52C47241983E9009A69F2 /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
+		04C52C4A24198427009A69F2 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		04C52C4C24198934009A69F2 /* ChatRoomTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomTC.swift; sourceTree = "<group>"; };
+		04C52C4E24198F3C009A69F2 /* ProfileVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVM.swift; sourceTree = "<group>"; };
+		04C52C51241992F5009A69F2 /* MessagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesVC.swift; sourceTree = "<group>"; };
+		04C52C532419931C009A69F2 /* MyChatTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyChatTC.swift; sourceTree = "<group>"; };
+		04C52C552419932B009A69F2 /* TheyChatTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheyChatTC.swift; sourceTree = "<group>"; };
+		04FABE122419A40200BD6CCD /* ChatsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsVM.swift; sourceTree = "<group>"; };
+		04FABE142419A4B400BD6CCD /* ChatsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsModel.swift; sourceTree = "<group>"; };
+		04FABE162419AE9600BD6CCD /* MessagesVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesVM.swift; sourceTree = "<group>"; };
+		04FABE182419AEB400BD6CCD /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		CAA31C7ACFA06EBA9D16B55D /* Pods-kiwari-ios-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kiwari-ios-test.release.xcconfig"; path = "Target Support Files/Pods-kiwari-ios-test/Pods-kiwari-ios-test.release.xcconfig"; sourceTree = "<group>"; };
+		EEE2772F224BA6436E78BF42 /* libPods-kiwari-ios-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kiwari-ios-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC7F119441D40CAD25B56E2 /* Pods-kiwari-ios-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kiwari-ios-test.debug.xcconfig"; path = "Target Support Files/Pods-kiwari-ios-test/Pods-kiwari-ios-test.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5770783B79A32F0D1DCA6C46 /* libPods-kiwari-ios-test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +75,8 @@
 			children = (
 				04C52C1D2419475B009A69F2 /* kiwari-ios-test */,
 				04C52C1C2419475B009A69F2 /* Products */,
+				86EB0DEA3068E35166C9295F /* Pods */,
+				3A89D085CDC817D3820BC312 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +91,126 @@
 		04C52C1D2419475B009A69F2 /* kiwari-ios-test */ = {
 			isa = PBXGroup;
 			children = (
+				04C52C3C2419785B009A69F2 /* GoogleService-Info.plist */,
 				04C52C1E2419475B009A69F2 /* AppDelegate.swift */,
-				04C52C202419475B009A69F2 /* SceneDelegate.swift */,
-				04C52C222419475B009A69F2 /* ViewController.swift */,
-				04C52C242419475B009A69F2 /* Main.storyboard */,
+				04C52C3E24197FA9009A69F2 /* Helper.swift */,
 				04C52C272419475E009A69F2 /* Assets.xcassets */,
+				04C52C242419475B009A69F2 /* Main.storyboard */,
+				04C52C34241948A3009A69F2 /* Model */,
+				04C52C332419488E009A69F2 /* View */,
+				04C52C35241948A8009A69F2 /* ViewModel */,
 				04C52C292419475E009A69F2 /* LaunchScreen.storyboard */,
 				04C52C2C2419475E009A69F2 /* Info.plist */,
 			);
 			path = "kiwari-ios-test";
+			sourceTree = "<group>";
+		};
+		04C52C322419487E009A69F2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				04C52C36241948CD009A69F2 /* LoginVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		04C52C332419488E009A69F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04C52C47241983E9009A69F2 /* TabController.swift */,
+				04C52C322419487E009A69F2 /* Login */,
+				04C52C44241983B0009A69F2 /* Chats */,
+				04C52C492419840B009A69F2 /* Profile */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04C52C34241948A3009A69F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04FABE142419A4B400BD6CCD /* ChatsModel.swift */,
+				04FABE182419AEB400BD6CCD /* MessageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04C52C35241948A8009A69F2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				04FABE112419A3DD00BD6CCD /* Chats */,
+				04FABE102419A3D500BD6CCD /* Profile */,
+				04C52C43241983A7009A69F2 /* Login */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		04C52C43241983A7009A69F2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				04C52C3A2419493D009A69F2 /* LoginVM.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		04C52C44241983B0009A69F2 /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				04C52C45241983C4009A69F2 /* ChatsVC.swift */,
+				04C52C4C24198934009A69F2 /* ChatRoomTC.swift */,
+				04C52C50241992D7009A69F2 /* Messages */,
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		04C52C492419840B009A69F2 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				04C52C4A24198427009A69F2 /* ProfileVC.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		04C52C50241992D7009A69F2 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				04C52C51241992F5009A69F2 /* MessagesVC.swift */,
+				04C52C532419931C009A69F2 /* MyChatTC.swift */,
+				04C52C552419932B009A69F2 /* TheyChatTC.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		04FABE102419A3D500BD6CCD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				04C52C4E24198F3C009A69F2 /* ProfileVM.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		04FABE112419A3DD00BD6CCD /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				04FABE122419A40200BD6CCD /* ChatsVM.swift */,
+				04FABE162419AE9600BD6CCD /* MessagesVM.swift */,
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		3A89D085CDC817D3820BC312 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEE2772F224BA6436E78BF42 /* libPods-kiwari-ios-test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86EB0DEA3068E35166C9295F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDC7F119441D40CAD25B56E2 /* Pods-kiwari-ios-test.debug.xcconfig */,
+				CAA31C7ACFA06EBA9D16B55D /* Pods-kiwari-ios-test.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04C52C2F2419475E009A69F2 /* Build configuration list for PBXNativeTarget "kiwari-ios-test" */;
 			buildPhases = (
+				72A5E8A700B082D99663A75C /* [CP] Check Pods Manifest.lock */,
 				04C52C172419475B009A69F2 /* Sources */,
 				04C52C182419475B009A69F2 /* Frameworks */,
 				04C52C192419475B009A69F2 /* Resources */,
@@ -126,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C52C2B2419475E009A69F2 /* LaunchScreen.storyboard in Resources */,
+				04C52C3D2419785B009A69F2 /* GoogleService-Info.plist in Resources */,
 				04C52C282419475E009A69F2 /* Assets.xcassets in Resources */,
 				04C52C262419475B009A69F2 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +281,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		72A5E8A700B082D99663A75C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kiwari-ios-test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04C52C172419475B009A69F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04C52C232419475B009A69F2 /* ViewController.swift in Sources */,
+				04C52C4F24198F3C009A69F2 /* ProfileVM.swift in Sources */,
+				04C52C46241983C4009A69F2 /* ChatsVC.swift in Sources */,
+				04FABE172419AE9600BD6CCD /* MessagesVM.swift in Sources */,
+				04FABE192419AEB400BD6CCD /* MessageModel.swift in Sources */,
+				04C52C48241983E9009A69F2 /* TabController.swift in Sources */,
+				04FABE152419A4B400BD6CCD /* ChatsModel.swift in Sources */,
+				04C52C4B24198427009A69F2 /* ProfileVC.swift in Sources */,
+				04C52C562419932B009A69F2 /* TheyChatTC.swift in Sources */,
+				04FABE132419A40200BD6CCD /* ChatsVM.swift in Sources */,
 				04C52C1F2419475B009A69F2 /* AppDelegate.swift in Sources */,
-				04C52C212419475B009A69F2 /* SceneDelegate.swift in Sources */,
+				04C52C3B2419493D009A69F2 /* LoginVM.swift in Sources */,
+				04C52C37241948CD009A69F2 /* LoginVC.swift in Sources */,
+				04C52C3F24197FA9009A69F2 /* Helper.swift in Sources */,
+				04C52C52241992F5009A69F2 /* MessagesVC.swift in Sources */,
+				04C52C4D24198934009A69F2 /* ChatRoomTC.swift in Sources */,
+				04C52C542419931C009A69F2 /* MyChatTC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,16 +468,18 @@
 		};
 		04C52C302419475E009A69F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDC7F119441D40CAD25B56E2 /* Pods-kiwari-ios-test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C4286C7K8S;
 				INFOPLIST_FILE = "kiwari-ios-test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "a.syauqi.albana.kiwari-ios-test";
+				PRODUCT_BUNDLE_IDENTIFIER = "kiwari-ios-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,16 +488,18 @@
 		};
 		04C52C312419475E009A69F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAA31C7ACFA06EBA9D16B55D /* Pods-kiwari-ios-test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C4286C7K8S;
 				INFOPLIST_FILE = "kiwari-ios-test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "a.syauqi.albana.kiwari-ios-test";
+				PRODUCT_BUNDLE_IDENTIFIER = "kiwari-ios-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
